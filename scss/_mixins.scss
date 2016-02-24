@@ -1,0 +1,14 @@
+@mixin image {
+    margin: 0 auto;
+    width:100%;
+    display: block;
+    background-size: cover;
+    text-align: center;
+}
+
+@mixin type($color){
+    color: $color;
+    font-size: 1.5em;
+    text-align:left;
+    font-family: $opensans;
+}
