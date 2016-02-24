@@ -37,7 +37,11 @@ html {
 }
 
 body {
-  font-family: sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 100;
+  background: #fff;
+  line-height: 1;
+  margin: 0;
 }
 
 html, body {
@@ -138,13 +142,6 @@ body, body * {
   position: absolute;
 }
 
-body {
-  font-family: "Open Sans", sans-serif;
-  font-weight: 100;
-  background: #fff;
-  line-height: 1;
-}
-
 h1, h2 {
   font-family: "Open Sans", sans-serif;
   font-weight: 100;
@@ -152,12 +149,18 @@ h1, h2 {
 }
 
 h1 {
-  font-size: 5em;
+  font-size: 7em;
   color: #8facd1;
+  padding-right: 30em;
 }
 
 h2 {
   font-size: 3em;
   transform: translateZ(0.2px) scale(0.8);
   z-index: 200;
+}
+
+.place {
+  padding-right: 70em;
+  padding-bottom: 60em;
 }

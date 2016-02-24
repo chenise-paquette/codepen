@@ -5,6 +5,10 @@ $light-grey: #ccc;
 $blue: #8facd1;
 $dark-blue: #2980b9;
 
+$parallax-perspective: 1 !default;
+$parallax-element: "body" !default;
+$parallax-ios: true !default;
+
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 $helvetica: Helvetica, Arial, sans-serif;
 $opensans: 'Open Sans', sans-serif

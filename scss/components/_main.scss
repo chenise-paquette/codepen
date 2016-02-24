@@ -19,7 +19,11 @@ html {
 
 
 body{
-  font-family: sans-serif;
+  font-family: $opensans;
+  font-weight: 100;
+  background: $white;
+  line-height: 1;
+  margin: 0;
 }
 
 @include parallax-init;
@@ -83,13 +87,6 @@ body{
   }
 }
 
-body {
-  font-family: $opensans;
-  font-weight: 100;
-  background: $white;
-  line-height: 1;
-}
-
 h1, h2 {
   font-family: $opensans;
   font-weight: 100;
@@ -97,10 +94,17 @@ h1, h2 {
 }
 
 h1 {
-  font-size: 5em;
+  font-size: 7em;
   color: $blue;
+  padding-right: 30em;
 }
+
 h2 {
   font-size: 3em;
   @include parallax(.2);
+}
+
+.place {
+    padding-right: 70em;
+    padding-bottom: 60em;
 }
