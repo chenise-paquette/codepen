@@ -139,20 +139,21 @@ body, body * {
 }
 
 body {
-  font-family: Roboto, sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 100;
-  background: #EEF1F3;
+  background: #fff;
   line-height: 1;
 }
 
 h1, h2 {
+  font-family: "Open Sans", sans-serif;
   font-weight: 100;
   margin: 0;
 }
 
 h1 {
   font-size: 5em;
-  color: #ffb3e5;
+  color: #8facd1;
 }
 
 h2 {

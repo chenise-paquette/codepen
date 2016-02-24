@@ -84,20 +84,21 @@ body{
 }
 
 body {
-  font-family: Roboto, sans-serif;
+  font-family: $opensans;
   font-weight: 100;
-  background: #EEF1F3;
+  background: $white;
   line-height: 1;
 }
 
 h1, h2 {
+  font-family: $opensans;
   font-weight: 100;
   margin: 0;
 }
 
 h1 {
   font-size: 5em;
-  color: $light-pink;
+  color: $blue;
 }
 h2 {
   font-size: 3em;
